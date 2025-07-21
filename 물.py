@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 # --- 0. 웹 페이지 설정 (가장 먼저 실행되어야 합니다) ---
 st.set_page_config(
     page_title="물 음용 가능성 예측 앱",
-    page_icon="�",
+    page_icon="💧",
     layout="centered", # wide 또는 centered
     initial_sidebar_state="auto"
 )
