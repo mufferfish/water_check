@@ -107,7 +107,7 @@ selected_lang = st.sidebar.selectbox(
 if selected_lang != st.session_state.lang:
     st.session_state.lang = selected_lang
     # 언어 변경 시 앱을 다시 로드하여 UI 텍스트를 업데이트
-    st.experimental_rerun()
+    st.rerun() # <-- 이 부분을 st.experimental_rerun()에서 st.rerun()으로 변경했습니다.
 
 # 현재 선택된 언어에 맞는 텍스트 가져오기
 _ = translations[st.session_state.lang]
