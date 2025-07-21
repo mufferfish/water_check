@@ -280,4 +280,3 @@ st.sidebar.title(_["sidebar_title"])
 st.sidebar.info(_["sidebar_info"])
 st.sidebar.markdown("---")
 st.sidebar.text(_["developer_info"])
-�
